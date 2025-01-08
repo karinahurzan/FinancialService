@@ -12,14 +12,159 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://db.onlinewebfonts.com/c/422ea15a93c7f520a821eabfa413dc1a?family=PingFang+SC+Semibold"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <meta name="description" content="Offer you financial services" />
   </head>
   <body>
-    <header></header>
+    <header class="header">
+      <div class="head">
+        <nav class="head-nav">
+          <button class="burger-button" type="button">
+            <svg class="burger" width="22" height="20">
+              <use href="./img/icons.svg#icon-burger"></use>
+            </svg>
+          </button>
+          <a class="head-logo" href="#" target="_blank">
+            <svg class="logo" width="130" height="28">
+              <use href="./img/icons.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <ul class="head-nav-list">
+            <li>
+              <a class="head-nav-src current" target="_blank" href="#">Home</a>
+            </li>
+            <li>
+              <a class="head-nav-src" target="_blank" href="#">Explore</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="head-button" type="button">
+          get&nbspstarted
+          <svg class="button-arrow" width="16" height="16">
+            <use href="./img/icons.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
 
-    <main></main>
+    <main>
+      <section class="hero">
+        <div class="hero-block container">
+          <svg
+            class="mask"
+            width="223"
+            height="232"
+            viewBox="0 0 223 232"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <mask
+              id="mask0_1731_13512"
+              style="mask-type: alpha"
+              maskUnits="userSpaceOnUse"
+              x="0"
+              y="0"
+              width="223"
+              height="232"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M112.884 0.53439C149.507 -1.96966 190.792 3.57678 212.283 33.3045C233.106 62.1076 218.719 100.191 209.792 134.582C201.353 167.093 193.318 202.115 164.135 218.796C132.838 236.685 93.5912 235.514 61.3178 219.449C29.5532 203.637 8.00615 172.73 1.55712 137.869C-4.5736 104.729 7.96701 72.0142 29.1985 45.8226C50.2036 19.9103 79.5831 2.81127 112.884 0.53439Z"
+                fill="url(#paint0_linear_1731_13512)"
+              />
+            </mask>
+            <g mask="url(#mask0_1731_13512)">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M112.784 8.49554C146.78 6.17353 185.103 11.3168 205.052 38.8833C224.381 65.5924 211.026 100.907 202.74 132.798C194.906 162.946 187.447 195.421 160.358 210.889C131.307 227.478 94.8761 226.392 64.9183 211.495C35.4328 196.833 15.4317 168.173 9.4454 135.846C3.75455 105.115 15.3954 74.7789 35.1035 50.4914C54.6015 26.4628 81.8731 10.6069 112.784 8.49554Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <linearGradient
+                id="paint0_linear_1731_13512"
+                x1="111.5"
+                y1="0"
+                x2="111.5"
+                y2="231.856"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#FDAB01" stop-opacity="0.6" />
+                <stop offset="1" stop-color="#FDAB01" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <svg
+          class="mask2"
+            width="277"
+            height="288"
+            viewBox="0 0 277 288"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <mask
+              id="mask0_3304_2527"
+              style="mask-type: alpha"
+              maskUnits="userSpaceOnUse"
+              x="0"
+              y="0"
+              width="277"
+              height="288"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M140.219 0.663794C185.71 -2.44662 236.992 4.4429 263.688 41.3692C289.553 77.1471 271.682 124.452 260.593 167.171C250.111 207.555 240.13 251.057 203.88 271.777C165.005 293.998 116.255 292.544 76.1661 272.589C36.7096 252.948 9.94486 214.558 1.93418 171.255C-5.68111 130.089 9.89625 89.4527 36.269 56.9187C62.3605 24.7316 98.8543 3.49203 140.219 0.663794Z"
+                fill="url(#paint0_linear_3304_2527)"
+              />
+            </mask>
+            <g mask="url(#mask0_3304_2527)">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M138.219 0.663794C183.71 -2.44662 234.992 4.4429 261.688 41.3692C287.553 77.1471 269.682 124.452 258.593 167.171C248.111 207.555 238.13 251.057 201.88 271.777C163.005 293.998 114.255 292.544 74.1661 272.589C34.7096 252.948 7.94486 214.558 -0.0658238 171.255C-7.68111 130.089 7.89625 89.4527 34.269 56.9187C60.3605 24.7316 96.8543 3.49203 138.219 0.663794Z"
+                fill="#BDBDBD"
+              />
+            </g>
+            <defs>
+              <linearGradient
+                id="paint0_linear_3304_2527"
+                x1="138.5"
+                y1="0"
+                x2="138.5"
+                y2="288"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#FDAB01" stop-opacity="0.3" />
+                <stop offset="1" stop-color="#FDAB01" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="hero-info">
+            <p class="hero-text">Introduction</p>
+            <h1 class="hero-title">
+              Your strategy is only as good as you execute it<span
+                class="hero-title-point"
+                >.</span
+              >
+            </h1>
+          </div>
+          <div class="hero-background"></div>
+        </div>
+      </section>
+    </main>
 
     <footer></footer>
   </body>
